@@ -40,6 +40,38 @@ skilltest/
 docker --version
 docker-compose --version
 ```
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/skilltest/main/screenshots/dockerversion.png)
+
+---
+
+## Run The Project
+```
+docker-compose up --build
+```
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/skilltest/main/screenshots/servicebuild.png)
+
+---
+
+## Verify Running Containers
+```
+docker ps
+```
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/skilltest/main/screenshots/ps.png)
+
+---
+
+## Service Endpoints
+<div style="border:1px solid #ccc; padding:10px">
+| Service Name | Description | Base URL |
+|-------------|------------|----------|
+| User Service | Manages user-related operations | http://localhost:3000/users |
+| Product Service | Handles product data and catalog | http://localhost:3001/products |
+| Order Service | Processes orders and transactions | http://localhost:3002/orders |
+| Gateway Service | API Gateway & health check | http://localhost:3003/health |
+</div>
+
+---
+
 
 
 
