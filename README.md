@@ -22,3 +22,24 @@ skilltest/
 └── README.md
 └── .gitignore
 ```
+---
+## Tech Stack
+1. Node.js
+2. Docker
+3. Docker Compose
+4. Express.js
+---
+## Getting Started
+
+**Prerequisites**
+1. Docker
+2. Docker Compose
+
+**Check installation:**
+```
+docker --version
+docker-compose --version
+```
+
+
+
