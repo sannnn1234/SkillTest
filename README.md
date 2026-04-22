@@ -114,6 +114,37 @@ docker ps
 </div>
 
 ---
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/skilltest/main/screenshots/users.png)
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/skilltest/main/screenshots/product.png)
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/skilltest/main/screenshots/addorder.png)
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/skilltest/main/screenshots/order.png)
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/skilltest/main/screenshots/gateway.png)
+
+---
+## Docker Setup
+**Dockerfile**
+Each service:
+1. Uses Node.js base image
+2. Installs dependencies
+3. Exposes port
+4. Runs with node app.js
+
+---
+
+## Docker Compose YAML
+**docker-compose.yml**
+1. Multi-container orchestration
+2. Shared bridge network
+3. Service dependency handling
+---
+## Docker Compose Logs 
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/skilltest/main/screenshots/dockerlog.png)
+
+---
+
+
+
+
 
 
 
