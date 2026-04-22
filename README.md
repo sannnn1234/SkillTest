@@ -62,12 +62,39 @@ docker ps
 
 ## Service Endpoints
 <div style="border:1px solid #ccc; padding:10px">
-| Service Name | Description | Base URL |
-|-------------|------------|----------|
-| User Service | Manages user-related operations | http://localhost:3000/users |
-| Product Service | Handles product data and catalog | http://localhost:3001/products |
-| Order Service | Processes orders and transactions | http://localhost:3002/orders |
-| Gateway Service | API Gateway & health check | http://localhost:3003/health |
+
+<table>
+  <thead>
+    <tr>
+      <th>Service Name</th>
+      <th>Description</th>
+      <th>Base URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User Service</td>
+      <td>Manages user-related operations</td>
+      <td>http://localhost:3000/users</td>
+    </tr>
+    <tr>
+      <td>Product Service</td>
+      <td>Handles product data and catalog</td>
+      <td>http://localhost:3001/products</td>
+    </tr>
+    <tr>
+      <td>Order Service</td>
+      <td>Processes orders and transactions</td>
+      <td>http://localhost:3002/orders</td>
+    </tr>
+    <tr>
+      <td>Gateway Service</td>
+      <td>API Gateway & health check</td>
+      <td>http://localhost:3003/health</td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 
 ---
