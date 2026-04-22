@@ -4,9 +4,21 @@
 ## Overview
 This project demonstrates a microservices architecture using Node.js, fully containerized with Docker and orchestrated using Docker Compose.
 
-Services
-User Service → 3000
-Product Service → 3001
-Order Service → 3002
-Gateway Service → 3003
+## Services
+1. User Service → 3000
+2. Product Service → 3001
+3. Order Service → 3002
+4. Gateway Service → 3003
 ---
+## Project Structure
+```
+skilltest/
+├── submissions/
+│   ├── user-service/Dockerfile
+│   ├── product-service/Dockerfile
+│   ├── order-service/Dockerfile
+│   ├── gateway-service/Dockerfile
+├── docker-compose.yml
+└── README.md
+└── .gitignore
+```
