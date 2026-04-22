@@ -61,7 +61,7 @@ docker ps
 ---
 
 ## Service Endpoints
-<div style="border:1px solid #ccc; padding:10px">
+<div style="border:1px solid #ccc; padding:12px">
 
 <table>
   <thead>
@@ -75,22 +75,38 @@ docker ps
     <tr>
       <td>User Service</td>
       <td>Manages user-related operations</td>
-      <td>"http://localhost:3000/users"</td>
+      <td>
+        <a href="http://localhost:3000/users" target="_blank">
+          http://localhost:3000/users
+        </a>
+      </td>
     </tr>
     <tr>
       <td>Product Service</td>
       <td>Handles product data and catalog</td>
-      <td>"http://localhost:3001/products"</td>
+      <td>
+        <a href="http://localhost:3001/products" target="_blank">
+          http://localhost:3001/products
+        </a>
+      </td>
     </tr>
     <tr>
       <td>Order Service</td>
       <td>Processes orders and transactions</td>
-      <td>"http://localhost:3002/orders"</td>
+      <td>
+        <a href="http://localhost:3002/orders" target="_blank">
+          http://localhost:3002/orders
+        </a>
+      </td>
     </tr>
     <tr>
       <td>Gateway Service</td>
-      <td>API Gateway & health check</td>
-      <td>"http://localhost:3003/health"</td>
+      <td>API Gateway &amp; health check</td>
+      <td>
+        <a href="http://localhost:3003/health" target="_blank">
+          http://localhost:3003/health
+        </a>
+      </td>
     </tr>
   </tbody>
 </table>
