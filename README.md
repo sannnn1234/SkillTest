@@ -75,22 +75,22 @@ docker ps
     <tr>
       <td>User Service</td>
       <td>Manages user-related operations</td>
-      <td>http://localhost:3000/users</td>
+      <td>"http://localhost:3000/users"</td>
     </tr>
     <tr>
       <td>Product Service</td>
       <td>Handles product data and catalog</td>
-      <td>http://localhost:3001/products</td>
+      <td>"http://localhost:3001/products"</td>
     </tr>
     <tr>
       <td>Order Service</td>
       <td>Processes orders and transactions</td>
-      <td>http://localhost:3002/orders</td>
+      <td>"http://localhost:3002/orders"</td>
     </tr>
     <tr>
       <td>Gateway Service</td>
       <td>API Gateway & health check</td>
-      <td>http://localhost:3003/health</td>
+      <td>"http://localhost:3003/health"</td>
     </tr>
   </tbody>
 </table>
